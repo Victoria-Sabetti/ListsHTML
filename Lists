@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body bgcolor="#00CCCC"; body style="font-family: 'Century Gothic'">
+    <!--Displaying lists
+        you can display a list using either a <ul>....</ul>
+        unordered lists
+        or <ol>...</ol> tag for ordered lists
+        -->
+    <h3>HTML Lists</h3>
+    <h4>Unordered Lists</h4>
+
+    <div>
+        <ul>
+            <li>Tea</li>
+            <li>Milk</li>
+            <li>Lemonade</li>
+            <li>Hot Chocolate</li>
+        </ul>
+    </div>
+
+    <h4>Ordered Lists</h4>
+    <div>
+        <ol start="1">
+            <li>Tea</li>
+            <li>Milk</li>
+            <li>Hot Chocolate</li>
+            <li>Lemonade</li>
+        </ol>
+    </div>
+
+    <h4>Nested Lists</h4>
+
+    <div>
+        <ol>
+            <li>
+                Drinks:
+                <ul>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <li>Soda</li>
+                </ul>
+            </li>
+
+
+
+            <li>
+                Desserts:
+                <ul>
+                    <li>Apple pie</li>
+                    <li>Ice Cream</li>
+                    <li>Pecan Pie</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <h4>Nested Lists - Example 2</h4>
+
+    <div>
+        <ol>
+            <li>
+                Drinks:
+                <ul>
+                    <li>
+                        Tea
+                        <ul>
+                            <li>Green</li>
+                            <li>Black</li>
+                            <li>Ulong</li>
+                        </ul>
+                    </li>
+                    <li>Milk</li>
+                    <li>Soda</li>
+                </ul>
+            </li>
+
+            <li>
+                Desserts:
+                <ul start="1">
+                    <li>Ice Cream</li>
+                    <li>Pecan Pie</li>
+                    <li>Apple Pie</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</body>
+</html>
